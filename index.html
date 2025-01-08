@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grow Tree</title>
+    <!-- Button -->
+    <link rel="stylesheet" href="./libs/btn/anim-menu-btn.css" />
+    <script src="./libs/btn/anim-menu-btn.min.js" defer></script>
     <!-- Swiper -->
     <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css" />
     <script src="./libs/swiper/swiper-bundle.min.js" defer></script>
@@ -13,28 +16,111 @@
   </head>
   <body>
     <div class="swiper slider">
+      <div class="slider__ui">
+        <div class="container">
+          <div class="top-content">
+            <div class="row">
+              <div class="col col--center">
+                <a href="#" class="logo">
+                  <img src="./assets/img/logo.svg" alt="Logo" />
+                </a>
+              </div>
+
+              <div class="col col--center col--right col--lead">
+                <nav class="menu">
+                  <ul>
+                    <li><a href="#">Main</a></li>
+                    <li class="active">
+                      <a href="#">Info</a>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+
+                <a href="#" class="button button--top">Plant now</a>
+              </div>
+
+              <div class="col col--center">
+                <button class="submenu anim-menu-btn">
+                  <i class="anim-menu-btn__icon anim-menu-btn__icon--close"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="middle-content"></div>
+
+          <div class="bottom-content"></div>
+        </div>
+      </div>
+
       <div class="swiper-wrapper">
         <div class="swiper-slide slider__item">
           <div
             class="slider__layer"
+            data-swiper-parallax="35%"
             style="
               background-image: url('./assets/img/slides/slide-1-layer-back.jpg');
             "
           ></div>
-        </div>
-        <div class="swiper-slide slider__item">
           <div
             class="slider__layer"
+            data-swiper-parallax="25%"
             style="
-              background-image: url('./assets/img/slides/slide-2-layer-back.jpg');
+              background-image: url('./assets/img/slides/slide-1-layer-middle.png');
+            "
+          ></div>
+          <div
+            class="slider__layer"
+            data-swiper-parallax="15%"
+            style="
+              background-image: url('./assets/img/slides/slide-1-layer-front.png');
             "
           ></div>
         </div>
         <div class="swiper-slide slider__item">
           <div
             class="slider__layer"
+            data-swiper-parallax="35%"
+            style="
+              background-image: url('./assets/img/slides/slide-2-layer-back.jpg');
+            "
+          ></div>
+          <div
+            class="slider__layer"
+            data-swiper-parallax="25%"
+            style="
+              background-image: url('./assets/img/slides/slide-2-layer-middle.png');
+            "
+          ></div>
+          <div
+            class="slider__layer"
+            data-swiper-parallax="15%"
+            style="
+              background-image: url('./assets/img/slides/slide-2-layer-front.png');
+            "
+          ></div>
+        </div>
+        <div class="swiper-slide slider__item">
+          <div
+            class="slider__layer"
+            data-swiper-parallax="35%"
             style="
               background-image: url('./assets/img/slides/slide-3-layer-back.jpg');
+            "
+          ></div>
+          <div
+            class="slider__layer"
+            data-swiper-parallax="25%"
+            style="
+              background-image: url('./assets/img/slides/slide-3-layer-middle.png');
+            "
+          ></div>
+          <div
+            class="slider__layer"
+            data-swiper-parallax="15%"
+            style="
+              background-image: url('./assets/img/slides/slide-3-layer-front.png');
             "
           ></div>
         </div>

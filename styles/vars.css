@@ -1,0 +1,13 @@
+:root {
+  --grid-width: 1140px;
+  --grid-gutter: 0.5em;
+
+  --bg-color: #2b474b;
+  --white-color: #fff;
+  --gray-color: #aeb4a6;
+  --green-color: #94de1d;
+
+  --anim-menu-btn-color: var(--gray-color);
+  --anim-menu-btn-gap: 0.2em;
+  --anim-menu-btn-width: 1.1em;
+}

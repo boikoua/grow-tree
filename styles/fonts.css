@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Montserrat-g;
+  src: url('./../assets/fonts/Montserrat-Regular.woff2');
+}
+
+@font-face {
+  font-family: Montserrat-g;
+  src: url('./../assets/fonts/Montserrat-SemiBold.woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat-g;
+  src: url('./../assets/fonts/Montserrat-Bold.woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat-g;
+  src: url('./../assets/fonts/Montserrat-Black.woff2');
+  font-weight: 900;
+}
