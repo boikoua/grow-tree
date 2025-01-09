@@ -1,4 +1,4 @@
-# Landing page for Museum
+# Landing page for Grow Tree
 
 ## Description
 
