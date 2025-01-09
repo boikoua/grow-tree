@@ -1,9 +1,13 @@
 :root {
+  --index: calc(1vw + 1vh);
+  --transition: ease-in-out;
+
   --grid-width: 1140px;
   --grid-gutter: 0.5em;
 
   --bg-color: #2b474b;
   --white-color: #fff;
+  --middle-gray-color: #dddddd;
   --gray-color: #aeb4a6;
   --green-color: #94de1d;
 

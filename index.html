@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grow Tree</title>
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
     <!-- Button -->
     <link rel="stylesheet" href="./libs/btn/anim-menu-btn.css" />
     <script src="./libs/btn/anim-menu-btn.min.js" defer></script>
@@ -17,8 +19,8 @@
   <body>
     <div class="swiper slider">
       <div class="slider__ui">
-        <div class="container">
-          <div class="top-content">
+        <div class="container header-wrapper">
+          <header class="top-content">
             <div class="row">
               <div class="col col--center">
                 <a href="#" class="logo">
@@ -40,17 +42,63 @@
                 <a href="#" class="button button--top">Plant now</a>
               </div>
 
-              <div class="col col--center">
+              <div class="col col--center burger">
                 <button class="submenu anim-menu-btn">
                   <i class="anim-menu-btn__icon anim-menu-btn__icon--close"></i>
                 </button>
               </div>
             </div>
-          </div>
+          </header>
 
-          <div class="middle-content"></div>
+          <main class="header-content">
+            <div class="header-content__slide active">
+              <h1 class="letters">Grow</h1>
 
-          <div class="bottom-content"></div>
+              <div class="header-content__info">
+                <p>
+                  As an environmental charity, we’re on a mission to make it
+                  simple for everyone to help the environment by planting each
+                  one tree!
+                </p>
+                <br />
+                <button class="button button--main">Plant a tree now</button>
+              </div>
+            </div>
+
+            <div class="header-content__slide">
+              <h1 class="letters">Live</h1>
+
+              <div class="header-content__info">
+                <p>
+                  As an environmental charity, we’re on a mission to make it
+                  simple for everyone to help the environment by planting each
+                  one tree!
+                </p>
+                <br />
+                <button class="button button--main">Plant a tree now</button>
+              </div>
+            </div>
+
+            <div class="header-content__slide">
+              <h1 class="letters">Wood</h1>
+
+              <div class="header-content__info">
+                <p>
+                  As an environmental charity, we’re on a mission to make it
+                  simple for everyone to help the environment by planting each
+                  one tree!
+                </p>
+                <br />
+                <button class="button button--main">Plant a tree now</button>
+              </div>
+            </div>
+          </main>
+
+          <footer class="header-bottom">
+            <a href="https://github.com/boikoua" target="_blank" class="develop"
+              ><span class="icon-github"></span> Dmytro Boiko</a
+            >
+          </footer>
         </div>
       </div>
 
